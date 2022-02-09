@@ -35,7 +35,7 @@ public class RiotClient extends Client{
 	private final String SEARCH_MATCH_PATH = "/lol/match/v5/matches/%s";
 	
 	public RiotClient() {
-		super("X-Riot-Token", "RGAPI-b0962b3c-4c65-4626-86ad-632f3d4a3c05");
+		super("X-Riot-Token", "[lol_api_key]");
 	}
 		
 	public Summoner getUser(String name) throws Exception {
@@ -122,8 +122,8 @@ public class RiotClient extends Client{
 	
 	public Youtuber getYoutuberInfo(String puuid) {
 		/**
-		 * 1. DB¿¡¼­ µ¥ÀÌÅÍ¸¦ Á¶È¸
-		 * 2. Á¶È¸ÇÑ µ¥ÀÌÅÍ·Î youtubeClient¸¦ »ç¿ë
+		 * 1. DBï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½È¸
+		 * 2. ï¿½ï¿½È¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½ youtubeClientï¿½ï¿½ ï¿½ï¿½ï¿½
 		 */
 		
 		

@@ -1,6 +1,6 @@
-// AOPÀÛ¾÷ ÇÒ °ÅÀÓ
-// DB°ü·Ã ÀÛ¾÷À» ÇÒ ¶§ ¸Å¹ø ¹Ýº¹ÇØ¼­ Çß´ø ÀÛ¾÷ : ¿¬°áÄÚµå
-// ±×°É AOP ÇÏÀÚ´Â°Å
+// AOPï¿½Û¾ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+// DBï¿½ï¿½ï¿½ï¿½ ï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Å¹ï¿½ ï¿½Ýºï¿½ï¿½Ø¼ï¿½ ï¿½ß´ï¿½ ï¿½Û¾ï¿½ : ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½
+// ï¿½×°ï¿½ AOP ï¿½ï¿½ï¿½Ú´Â°ï¿½
 package com.lol.main;
 
 import java.sql.Connection;
@@ -11,23 +11,23 @@ import java.sql.SQLException;
 
 public class DBManager {
 	
-	// dbÀÛ¾÷½Ã¿¡´Â ¾îÂ¶µç ¿¬°áÀ» ÇØÁà¾ßÇÔ
+	// dbï¿½Û¾ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ ï¿½ï¿½Â¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public static Connection connect() throws SQLException {
 			String url = "jdbc:oracle:thin:@localhost:1521:xe";
-			return DriverManager.getConnection(url, "yjh", "yjh");  // ÀÌÄÚµå Å¸ÀÔÀÌ ConnectionÀÓ
+			return DriverManager.getConnection(url, "[db_id]", "[db_pw]");  // ï¿½ï¿½ï¿½Úµï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ Connectionï¿½ï¿½
 				
 	}
-	// ´ÝÀ»°Ô ¸¹Àºµ¥ ÇÑ¹ø¿¡ ´Ý±â
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ¹ï¿½ï¿½ï¿½ ï¿½Ý±ï¿½
 	public static void close(Connection con, PreparedStatement pstmt, ResultSet rs) {
 		
 		try {
-			if (rs != null) {   // nullÀÌ ¾Æ´Ò ¶§ ´Ý¾ÆÁà¾ßÇÏ¹Ç·Î 
+			if (rs != null) {   // nullï¿½ï¿½ ï¿½Æ´ï¿½ ï¿½ï¿½ ï¿½Ý¾ï¿½ï¿½ï¿½ï¿½ï¿½Ï¹Ç·ï¿½ 
 				rs.close(); 
 			}
 		} catch (SQLException e) {			
 		}
 		try {
-			if (pstmt != null) {   // nullÀÌ ¾Æ´Ò ¶§ ´Ý¾ÆÁà¾ßÇÏ¹Ç·Î 
+			if (pstmt != null) {   // nullï¿½ï¿½ ï¿½Æ´ï¿½ ï¿½ï¿½ ï¿½Ý¾ï¿½ï¿½ï¿½ï¿½ï¿½Ï¹Ç·ï¿½ 
 				pstmt.close(); 
 			}
 		} catch (SQLException e) {

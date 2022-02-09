@@ -27,7 +27,7 @@ public class YoutubeClient extends Client {
 	private final String CHANNEL_API_PARAMS = "?id=%s&part=statistics,snippet";
 	
 	public YoutubeClient() {
-		super("key", "AIzaSyDEHOobubELvUY8Pwt2RWD7e02_HlYkbdI");
+		super("key", "[youtube_api_key]");
 	}
 	
 	public List<String> getYoutuberInfo(String id) throws Exception{
@@ -44,7 +44,7 @@ public class YoutubeClient extends Client {
 		JSONObject statistics = (JSONObject) item.get("statistics");
 		String subscriberCount = (String) statistics.get("subscriberCount");
 		
-		//¾Æ ¹º°¡ Ãß°¡ÇÏ´Â ÄÚµå 
+		//ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½Ï´ï¿½ ï¿½Úµï¿½ 
 		System.out.println(title);
 		System.out.println(subscriberCount);
 		System.out.println(url);
