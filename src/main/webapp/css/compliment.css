@@ -1,0 +1,218 @@
+#board-list-wrap {
+	background-color: #282830;
+	border-top: 1px solid #444444;
+	border-collapse: collapse;
+	font-size: 0px;
+	width: 100%;
+}
+
+#board-list-wrap1 {
+	background-color: #E1EEF5;
+	border-top: 1px solid #444444;
+	border-collapse: collapse;
+	font-size: 0px;
+	width: 100%;
+}
+
+#board-list {
+	font-size: 0px;
+}
+
+
+#board-list-head, #board-list-body {
+	font-size: 0px;
+}
+#board-list-head1, #board-list-body {
+	font-size: 0px;
+}
+
+#board-list-head>div {
+	float: left;
+	color: #b9b9b9;
+	background-color: #282830;
+	padding: 10px;
+	font-size: 14px;
+}
+#board-list-head1>div {
+	float: left;
+	color: #b9b9b9;
+	background-color: #E1EEF5;
+	padding: 10px;
+	font-size: 14px;
+}
+
+#board-list-body #item>div {
+	float: left;
+	color: white;
+	background-color: #31313C;
+	padding: 10px;
+	font-size: 15px;
+	border-bottom: 1px solid black;
+	height: 60px;
+}
+
+#board-list-body :hover div {
+	cursor: pointer;
+}
+
+#item #n:hover {
+	background-color: gray;
+	cursor: pointer;
+}
+
+#board-list #n {
+	width: 15%;
+}
+
+#board-list #n1 {
+	width: 55%;
+	text-align: center;
+	height: 45px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#board-list #n2 {
+	width: 15%;
+}
+
+#board-list #n3 {
+	width: 15%;
+	height: 30px;
+	float: left;
+}
+#board-list #n4 {
+	width: 55%;
+	text-align: center;
+	height: 45px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#board-list #n5 {
+	width: 15%;
+	height: 45px;
+}
+
+.btn_n2 {
+	font-size: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	background-color: gray;
+	border-radius: 3px;
+}
+
+.sub_menu {
+	display: none;
+}
+
+#board-list #p {
+	width: 9%;
+	
+}
+
+#board-list #p1 {
+	width: 10%;
+	height: 45px;
+}
+#board-list #p2 {
+	width: 15%;
+	height: 45px;
+}
+
+
+#board-list #t {
+	width: 19%;
+}
+
+#board-list #t1 {
+	width: 30%;
+	height: 45px;
+}
+#board-list #t5 {
+	width: 15%;
+	height: 45px;
+}
+
+#board-list #w {
+	width: 13%;
+}
+#board-list #w5 {
+	width: 13%;
+	height: 45px;
+}
+
+#board-list #m {
+	width: 30%;
+}
+
+#board-list #m2 {
+	width: 30%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* 라인수 */
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	line-height: 1.5em;
+	height: 40px;
+}
+
+#board-list #m3 {
+	width: 55%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* 라인수 */
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	line-height: 1.6em;
+	height: 50px;
+}
+
+#board-list #m4 {
+	width: 55%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* 라인수 */
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	line-height: 1.6em;
+	height: 50px;
+}
+#board-list #m5 {
+	width: 40%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* 라인수 */
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	line-height: 1.6em;
+	height: 50px;
+}
+#board-list #m6 {
+	width: 40%;
+	height: 45px;
+}
+
+#board-list #d {
+	width: 14%;
+}
+
+#board-list #d1 {
+	width: 30%;
+}
+#board-list #d5 {
+	width: 17%;
+	height: 45px;
+}
+
+.i_btn {
+	text-align: right;
+	font-size: 18px;
+	z-index: 1;
+}

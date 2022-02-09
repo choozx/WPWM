@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+#summornerTd{
+	width: 500px;
+	height: 150px;
+	line-height: 100%;
+	font-size: 10pt;
+	background-color: #00BFFF;
+	margin-bottom: 10px;
+}
+
+#youtuberSearchTd{
+	width: 500px;
+	height: 100px;
+	line-height: 100%;
+	font-size: 10pt;
+	background-color: #87CEFA;
+	margin-bottom: 10px;
+}
+
+#youtuberImg{
+	height: 100px;
+}
+
+#forwardYoutubeBtn{
+	height: 10px;
+	background-color: #00BFFF;
+}
+
+#youtuberSearchTbl{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+#tierIcon{
+	height: 150px;
+}
+
+.matchText{
+	font-size: 10pt;
+	color: white;
+}
+
+#youtubermatchDTO{
+	font-size: 10pt;
+	line-height: 10px;
+}
+.youtuberP{
+	margin-bottom: 0;
+}

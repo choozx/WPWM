@@ -1,0 +1,242 @@
+@charset "UTF-8";
+*{
+	top: 0px;
+	left: 0px;
+	background-color: #E1EEF5;
+}
+
+.container bootdey{
+	top: 0px;
+	left: 0px;
+}
+
+.email-app {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    border: 1px solid #e1e6ef;
+}
+.text-center{
+	margin-top :-10px;
+	margin-left : -8px;
+	margin-right : -8px;
+	height : 30px;
+	top: 0px;
+	left: 0px;
+	background-color: gray;
+	color: white;
+}
+
+
+#messnickname{
+	font-weight: 900;
+	font-style: oblique;
+	font-size: 15pt;
+}
+
+
+.form-row mb-3{
+	border-bottom: 1px;
+}
+
+#message{
+	width: 100%;
+	height: 250px;
+}
+
+.message-menu{
+	text-decoration: none;
+	display:block;
+	background: gray;
+	cursor: pointer;
+	float: right;
+	padding: 4px;
+	color: white;
+	
+}
+.message-menu:hover{
+	color: red;
+}
+
+.message-menu:active{
+	color: red;
+	
+}
+
+
+
+/* 위에는 message.jsp  */
+/* 아래는 messagelist.jsp */
+#board-list-wrap1 {
+	background-color: #E1EEF5;
+	border-top: 1px solid #444444;
+	border-collapse: collapse;
+	font-size: 0px;
+	color: white;
+	width: 100%;
+}
+
+#board-list {
+	font-size: 0px;
+}
+
+
+#board-list-head, #board-list-body {
+	font-size: 0px;
+}
+#board-list-head1, #board-list-body {
+	font-size: 0px;
+}
+
+
+#board-list-head1>div {
+	float: left;
+	color: black;
+	background-color: #E1EEF5;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bolder;
+	border-bottom: 1px solid black;
+}
+
+#board-list-body #item>div {
+	float: left;
+	color: black;
+	background-color: #E1EEF5;
+	padding: 10px;
+	font-size: 15px;
+	border-bottom: 1px solid black;
+	height: 60px;
+}
+
+#board-list-body :hover div {
+	cursor: pointer;
+}
+
+#board-list #n3 {
+	width: 30%;
+	height: 45px;
+	float: left;
+}
+#board-list #n4 {
+	width: 35%;
+	text-align: center;
+	height: 45px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.btn_n2 {
+	font-size: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	background-color: gray;
+	border-radius: 3px;
+}
+
+#board-list #p2 {
+	width: 30%;
+	height: 45px;
+}
+
+#board-list #t1 {
+	width: 35%;
+	height: 45px;
+	margin-bottom: 10px;
+}
+
+
+#board-list #m4 {
+	width: 35%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* 라인수 */
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	line-height: 1.6em;
+	height: 50px;
+}
+
+
+#board-list #d1 {
+	width: 35%;
+	height: 45px;
+}
+
+.text-center02{
+	height : 30px;
+	top: 0px;
+	left: 0px;
+	background-color: gray;
+	color: white;
+	
+}
+
+.message-menu02{
+	text-decoration: none;
+	display:block;
+	cursor: pointer;
+	float: right;
+	padding: 4px;
+	color: white;
+}
+.message-menu02:hover{
+	color: red;
+}
+
+.message-menu02:active{
+	color: red;
+	
+}
+.i_btn {
+	text-align: right;
+	font-size: 18px;
+	z-index: 1;
+}
+#attributeValue {
+	font-size: 30pt;
+	color: rgba(0, 187, 163);
+	animation: fadeout 1.5s;
+	animation-fill-mode: forwards;
+	background-color: #E1EEF5;
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+#duoPaging {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	background-color: #E1EEF5;
+	top: 0;
+	word-spacing: 5pt;
+}
+
+.duopaging-num {
+	text-decoration: none;
+	color: black;
+	font-size: 15pt;
+}
+
+.duopaging-num:visited {
+	font-size: 30pt;
+}
+
+.duopaging-num:hover {
+	color: red;
+}
+
+.duopaging-num:active {
+	color: red;
+}
+

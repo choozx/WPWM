@@ -1,0 +1,717 @@
+@charset "UTF-8";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: rgba(28, 28, 31);
+}
+
+#attributeValue {
+	font-size: 30pt;
+	color: rgba(0, 187, 163);
+	animation: fadeout 1.5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+#topMenu {
+	background-color: rgba(49, 49, 60);
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+#topMenu1 {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #344a72;
+}
+
+#topMenu ul {
+	width: 1400px;
+	margin: 0 auto;
+	overflow: hidden;
+	list-style: none;
+}
+
+#topMenu ul li {
+	float: left;
+	width: 18%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	color: white;
+	background-color: rgba(49, 49, 60);
+	text-decoration: none;
+}
+
+#topMenu1 ul {
+	width: 1400px;
+	margin: 0 auto;
+	overflow: hidden;
+	list-style: none;
+}
+
+#topMenu1 ul li {
+	float: left;
+	width: 18%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	color: white;
+	background-color: #344a72;
+	text-decoration: none;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+
+li a :hover{
+	text-decoration: none;
+	color: white;
+}
+
+#topMenu2 {
+	background-color: #344a72;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+#topMenu2 ul {
+	width: 1400px;
+	margin: 0 auto;
+	overflow: hidden;
+	list-style: none;
+}
+
+#topMenu2 ul li {
+	float: left;
+	width: 23%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	background-color: #344a72;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+
+#topmenu_logo {
+	margin-top: 6px;
+	line-height: 10px;
+	cursor: pointer;
+}
+
+#secondMenu {
+	width: 100%;
+	position: sticky;
+	top: 0;
+	border-bottom: 1px solid black;
+	background-color: rgba(49, 49, 60);
+	top: 0;
+}
+
+#secondMenu ul {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	list-style: none;
+}
+
+#secondMenu ul li {
+	float: left;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	display: flex;
+	background-color: rgba(49, 49, 60);
+}
+
+#wrapper {
+	position: sticky;
+	top: 0px;
+}
+#secondmenu_logoimg {
+	height: 40px;
+	line-height: 40px;
+}
+
+#secondmenu_logoimg:hover {
+	cursor: pointer;
+}
+
+
+#thirdMenu {
+	position: sticky;
+	top: 50px;
+	width: 100%;
+	border-bottom: 1px solid black;
+	background-color: rgba(49, 49, 60);
+}
+
+#thirdMenu ul {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	list-style: none;
+}
+
+#thirdMenu ul li {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	background-color: rgba(49, 49, 60);
+}
+
+.thirdMenuTd {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	padding-right: 30px;
+}
+
+.thirdMenuTd:after {
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	background: #ffb000;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+}
+
+.thirdMenuTd:hover:after {
+	width: 70%;
+	left: 0;
+
+}
+
+#thirdMenuA:visited{
+	text-decoration: underline;	
+}
+
+a {
+	color: white;
+	text-decoration-line: none;
+}
+
+.button {
+	text-decoration: none;
+	border-bottom: 1px radius black;
+}
+
+#duoContentTbl {
+	margin-top: 0px;
+	width: 100%;
+	background-color: rgba(28, 28, 31);
+	height: 100%;
+}
+
+#duoContentPage {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	background-color: rgba(28, 28, 31);
+}
+
+#duotblSelect {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+#selectTr {
+	background-color: rgba(28, 28, 31);
+}
+
+.select-td {
+	height: 30px;
+	border-radius: 5px;
+	background-color: rgba(49, 49, 60);
+	color: white;
+}
+.btn_select {
+	height: 30px;
+	border-radius: 5px;
+	background-color: rgba(49, 49, 60);
+	color: white;
+}
+
+.btn_duoreg {
+	background-color: rgba(0, 187, 163);
+	height: 30px;
+	border-radius: 5px;
+}
+
+.btn_report{
+	background-color:red;
+	height: 30px;
+	border-radius: 5px;
+	margin-right: -106px;
+}
+#board-list-wrap {
+	background-color: #282830;
+	border-top: 1px solid #444444;
+	border-collapse: collapse;
+	font-size: 0px;
+	width: 100%;
+}
+
+#board-list-wrap1 {
+	background-color: #E1EEF5;
+	border-top: 1px solid #444444;
+	border-collapse: collapse;
+	font-size: 0px;
+	width: 100%;
+}
+
+#board-list {
+	font-size: 0px;
+}
+
+
+#board-list-head, #board-list-body {
+	font-size: 0px;
+}
+#board-list-head1, #board-list-body {
+	font-size: 0px;
+}
+
+#board-list-head>div {
+	float: left;
+	color: #b9b9b9;
+	background-color: #282830;
+	padding: 10px;
+	font-size: 14px;
+}
+#board-list-head1>div {
+	float: left;
+	color: #b9b9b9;
+	background-color: #E1EEF5;
+	padding: 10px;
+	font-size: 14px;
+}
+
+#board-list-body #item>div {
+	float: left;
+	color: white;
+	background-color: #31313C;
+	padding: 10px;
+	font-size: 15px;
+	border-bottom: 1px solid black;
+	height: 60px;
+}
+
+#board-list-body :hover div {
+	cursor: pointer;
+}
+
+#item #n:hover {
+	background-color: gray;
+	cursor: pointer;
+}
+
+#board-list #n {
+	width: 15%;
+}
+
+#board-list #n1 {
+	width: 55%;
+	text-align: center;
+	height: 45px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#board-list #n2 {
+	width: 15%;
+}
+
+#board-list #n3 {
+	width: 15%;
+	height: 30px;
+	float: left;
+}
+#board-list #n4 {
+	width: 55%;
+	text-align: center;
+	height: 45px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.btn_n2 {
+	font-size: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	background-color: gray;
+	border-radius: 3px;
+}
+
+.sub_menu {
+	display: none;
+}
+
+#board-list #p {
+	width: 9%;
+	
+}
+
+#board-list #p1 {
+	width: 10%;
+	height: 45px;
+}
+#board-list #p2 {
+	width: 15%;
+	height: 45px;
+}
+
+#board-list #t {
+	width: 19%;
+}
+
+#board-list #t1 {
+	width: 30%;
+	height: 45px;
+}
+
+#board-list #w {
+	width: 13%;
+}
+
+#board-list #m {
+	width: 30%;
+}
+
+#board-list #m2 {
+	width: 30%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* 라인수 */
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	line-height: 1.5em;
+	height: 40px;
+}
+
+#board-list #m3 {
+	width: 55%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* 라인수 */
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	line-height: 1.6em;
+	height: 50px;
+}
+
+#board-list #m4 {
+	width: 55%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* 라인수 */
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	line-height: 1.6em;
+	height: 50px;
+}
+
+#board-list #d {
+	width: 14%;
+}
+
+#board-list #d1 {
+	width: 30%;
+}
+
+.i_btn {
+	text-align: right;
+	font-size: 18px;
+	z-index: 1;
+}
+
+#js-btn-wrap {
+	font-size: 15px;
+}
+
+#duoRegTbl {
+	width: 500px;
+	height: 400px;
+	border-radius: 5px;
+	margin-top: 100px;
+}
+
+.duoreg-td01 {
+	text-align: left;
+	width: 250px;
+	color: rgba(123, 122, 142);
+}
+
+.duoreg-td02 {
+	text-align: center;
+	width: 250px;
+}
+
+.btn_duocancel {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.btn_duoreg02 {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 187, 163);
+}
+
+.btn_duodel {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+
+#duotr_memo {
+	color: #b9b9b9;
+	background-color: rgba(28, 28, 31);
+	/* 한 줄 자르기 */
+	display: inline-block;
+	width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; /* 여러 줄 자르기 추가 스타일 */
+	white-space: normal;
+	line-height: 1.2;
+}
+
+.d_td2 {
+	text-align: left;
+	/* 한 줄 자르기 */
+	display: -webkit-box;
+	width: 180px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/* 여러 줄 자르기 추가 스타일 */
+	white-space: normal;
+	word-wrap: break-word;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.no-uline:hover {
+	text-decoration: underline;
+	color: rgba(0, 187, 163);
+}
+
+#duoDelTbl {
+	width: 500px;
+	height: 200px;
+	border-radius: 5px;
+	margin-top: 100px;
+}
+
+.duodetail-td01 {
+	text-align: left;
+	width: 250px;
+	color: rgba(123, 122, 142);
+}
+
+.duodetail-td02 {
+	text-align: left;
+	width: 250px;
+	white-space: pre-line;
+}
+
+.duoupdate-td01 {
+	text-align: left;
+	width: 250px;
+	color: rgba(123, 122, 142);
+}
+
+.duoupdate-td02 {
+	text-align: left;
+	width: 250px;
+}
+
+#btn_youtuber {
+	border: none;
+	background-color: #49c1a2;
+	color: white;
+	border-radius: 6px;
+	width: 200px;
+	height: 30px;
+	line-height: 25px;
+	margin-top: 12px;
+}
+
+#btn_logout {
+	border: none;
+	background-color: #49c1a2;
+	color: white;
+	border-radius: 6px;
+	width: 200px;
+	height: 30px;
+	line-height: 10px;
+	margin-top: 12px;
+}
+
+#btn_message {
+	border: none;
+	background-color: #49c1a2;
+	color: white;
+	border-radius: 6px;
+	width: 200px;
+	height: 30px;
+	margin-top: 12px;
+	line-height: 25px;
+}
+
+.logoutSpan {
+	font-size: 12px;
+}
+
+#youtuberTbl {
+	margin-top: 50px;
+	border: #000080 solid 5px;
+	width: 500px;
+	height: 200px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	position: relative;
+	left: 550px;
+}
+
+#youtuberBtn {
+	width: 320px;
+	height: 35px;
+	margin-top: 20px;
+	border: none;
+	background-color: #49c1a2;
+	color: white;
+	font-size: 18px;
+	border-radius: 6px;
+}
+
+#youtuberTbl td {
+	font-size: 20px;
+}
+
+#yTbl {
+	margin-top: 10px;
+	border: black solid 1px;
+	width: 650px;
+	height: 200px;
+	position: relative;
+	left: 500px;
+}
+
+#yTbl td {
+	color: white;
+}
+
+.yBtn {
+	width: 50px;
+	height: 30px;
+	margin-top: 20px;
+	border: none;
+	background-color: #49c1a2;
+	color: white;
+	font-size: 18px;
+	border-radius: 6px;
+}
+
+.yTblTd2 {
+	text-align: center;
+}
+
+#duoPaging {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	background-color: rgba(28, 28, 31);
+	top: 0;
+	word-spacing: 5pt;
+}
+
+.duopaging-num {
+	text-decoration: none;
+	color: white;
+	font-size: 15pt;
+}
+
+.duopaging-num:visited {
+	font-size: 30pt;
+}
+
+.duopaging-num:hover {
+	color: red;
+}
+
+.duopaging-num:active {
+	color: red;
+}
+
+#searchNick{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+#searchNickInput{
+	width: 270px;
+	height: 30px;
+	text-align: left;
+	font-size: 15pt;
+	
+}
+
+#btn_searchNick{
+	width: 100px;
+	height: 31px;
+	margin-top:30px;
+	margin-left:-5px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: rgba(0, 187, 163);
+	font-size: 13pt;
+}

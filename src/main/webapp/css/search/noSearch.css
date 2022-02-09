@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#noSearchImg{
+	padding-top: 150px;
+	opacity: 0.3;
+}
+
+#noSearchText{
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+	font-size: 15pt;
+}
+
+#noSearchUserText{
+	text-align: center;
+	font-size: 15pt;
+	color: white;
+	padding-top: 20px;
+}

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+#suggestionTbl{
+	width: 1000px;
+	color: white;
+}
+
+#suggestionTR{
+	background-color: #40E0D0;
+}
+
+.suggestionNo{
+	width: 100px;
+}
+
+.suggestionHead{
+	width: 100px;
+}
+
+.suggestionTitle{
+	width: 400px;
+}
+
+.suggestionUser{
+	width: 200px;
+}
+
+.suggestionDate{
+	width: 200px;
+}
+
+#suggestionDetailTitle{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 30pt;
+}
+
+#suggestionDetailTbl{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.suggestionDetailtd1{
+	width: 100px;
+	color: gray;
+}
+
+.suggestionDetailtd2{
+	width: 900px;
+	color: white;
+}
+
+#suggestionDetailText{
+	height: 300px;
+	color: white;
+}
